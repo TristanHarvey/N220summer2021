@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicehard</title>
+    <title>Bad word array</title>
 </head>
 <body>
 
-    <div id="dvResult"></div>
-    <br />
-    <input id="txtDieSize" />
-    <br />
-    <button onclick="rollDie()">ROLL!</button>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script> 
+    <input type="text" id="wordInput" value="clear water tires" />
+    <button id="badWordCatch" onclick="badWordCatch()">Catch Bad Words</button>
+    <div id="wordsFound"></div>
+    <div id="wordAmount"></div>
+    
     <script src="js/app2.js"></script>
 </body>
 </html>
